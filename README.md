@@ -1,5 +1,5 @@
-#Basic Installation File
-##Shell Script
+# Basic Installation File
+## Shell Script
 
 
-##Written By : *Akash Seth*
+## Written By : * Akash Seth *
