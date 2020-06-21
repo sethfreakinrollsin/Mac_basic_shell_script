@@ -2,4 +2,4 @@
 ## Shell Script
 
 
-## Written By : * Akash Seth *
+### Written By : *Akash Seth*
