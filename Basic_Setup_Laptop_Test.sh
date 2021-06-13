@@ -42,40 +42,46 @@ man brew >> Documents/File/brew.txt
 cd Documents/Files
 #Installing VS-Code
 echo "Installing Visual Studio Code ......"
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 #Installing Google Chrome
 echo "Installing Google Chrome ......"
-brew cask install google-chrome 
+brew install --cask google-chrome 
 #Installing MySQL
 echo "Installing  MY SQL ......"
 brew install mysql
 mysql.server start
 #Installing Java8
 echo "Installing Java 8 ......"
-brew cask install java8
+brew install --cask java8
 #Installing Python 3
 echo "Installing Python 3 ......"
 brew install python
 #Installing Team Viewer
 echo "Installing Team Viewer ......"
-brew cask install teamviewer
+brew install --cask teamviewer
 #Installing VLC
 echo "Installing VLC media player ......"
-brew cask install vlc
-
-#Installing R
-echo "Installing R ......"
-brew install r
+brew install --cask  vlc
+#Installing Discord
+echo "Installing Discord ......"
+brew install --cask discord
+#Installing Docker
+echo "Installing Docker ......"
+brew install docker
 #Cleaning Up - Removes Previous Version Every 30 days
 #echo "Cleaup up ......"
 #brew cleanup  
 #Done .... Vote of Thanks .....
-echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> R"
-echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> R">>software_installed.txt
+echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker"
+echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker">>software_installed.txt
 echo "Done"
 echo "Thank You :) "
 exit
 done
+
+
+
+
 
 
 
