@@ -68,12 +68,18 @@ brew install --cask discord
 #Installing Docker
 echo "Installing Docker ......"
 brew install docker
+#Installing Obsidian
+echo "Installing Obsidian ......"
+brew install --cask obsidian
+#Installing Notion
+echo "Installing Notion ......"
+brew install --cask notion
 #Cleaning Up - Removes Previous Version Every 30 days
 #echo "Cleaup up ......"
 #brew cleanup  
 #Done .... Vote of Thanks .....
-echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker"
-echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker">>software_installed.txt
+echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker 11> Obsidian 12> Notion "
+echo "Installed : 1> Brew for MAC 2> VS code  3> Google Chrome 4> My SQL 5> Java 6> Python 7> Team Viewer 8> VLC media Player 9> Discord 10> Docker 11> Obsidian 12> Notion ">>software_installed.txt
 echo "Done"
 echo "Thank You :) "
 exit
